@@ -9,6 +9,11 @@ The recipes used in this project installing and configuring useful software for 
 
 [OPSCODE](http://www.opscode.com/chef/) offers a complete set of independient operating system recipes. However, the objective of *chef-workstation* is to get focus on [Fedora](http://fedoraproject.org) operating system, saving lines of code and simplifying the provisioning process.
 
+Requirements
+------------
+
+* [Chef](http://www.opscode.com/chef/). See [installation](http://wiki.opscode.com/display/chef/Installation) instructions.
+
 Installation
 -------------
 
