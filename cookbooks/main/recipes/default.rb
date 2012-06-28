@@ -5,6 +5,9 @@ package 'ctags-etags'
 package 'ack'
 package 'meld'
 
+# Development libraries
+package 'mysql-devel'
+
 # Web servers
 package 'nginx'
 package 'httpd'
@@ -37,6 +40,10 @@ package 'wget'
 package 'screen'
 
 # Databases
+package 'postgresql'
+package 'postgresql-server'
+package 'mysql'
+package 'mysql-server'
 package 'redis'
 package 'mongodb'
-#include_recipe 'postgresql'
+package 'mongodb-server'
