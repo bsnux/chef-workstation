@@ -1,3 +1,9 @@
+# Build-essentials
+package 'gcc'
+package 'gcc-c++'
+package 'kernel-devel'
+package 'make'
+
 # Development tools
 package 'vim'
 package 'ctags'
