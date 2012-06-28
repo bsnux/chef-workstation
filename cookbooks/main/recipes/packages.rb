@@ -8,6 +8,7 @@ package 'ctags'
 package 'ctags-etags'
 package 'ack'
 package 'meld'
+package 'python-pip'
 
 # Development libraries
 package 'mysql-devel'
