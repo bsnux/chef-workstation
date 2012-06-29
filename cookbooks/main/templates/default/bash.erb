@@ -1,0 +1,22 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+# Mercurial
+if [ -f $HOME/.hgtab-bash.sh ]; then
+    . $HOME/.hgtab-bash.sh
+fi
+
+# Django completion
+if [ -f $HOME/scripts/django_bash_completion.sh ]; then
+    source $HOME/scripts/django_bash_completion.sh
+fi
+
+stty -ixoff -ixon
+
+# User specific aliases and functions
+alias ls='ls -h --color=auto'
+
