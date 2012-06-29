@@ -1,6 +1,12 @@
-git "linux-config" do
-  repository "git@github.com:bsnux/linux-config.git"
-  reference "master"
-  action :checkout
-  destination '/tmp/linux-config'
+git_url = 'git@github.com:bsnux/'
+dev_dir = '/tmp/'
+repos = ['linux-config', 'vim-kit', 'django-bootstrap-scripts']
+
+for repo in repos
+  git 'Clone repo' do
+    repository git_url + repo
+    reference 'master'
+    action :checkout
+    destination dev_dir + repo
+  end
 end
