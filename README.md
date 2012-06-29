@@ -19,16 +19,12 @@ Installation
 
 1. Clone current repo.
 
-2. Update modules:
-
-    `$ cd chef-workstation`
-
-    `$ git submodule init`
-
-    `$ git submodule update`
+2. Ready!
 
 Usage
 -----
+
+    $ cd chef-workstation
 
     $ chef-solo -c solo.rb -j solo.json
 
