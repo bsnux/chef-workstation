@@ -2,7 +2,7 @@ git_url = 'git@github.com:bsnux/'
 dev_dir = '/tmp/'
 repos = ['linux-config', 'vim-kit', 'django-bootstrap-scripts']
 
-for repo in repos
+repos.each do |repo|
   git 'Clone repo' do
     repository git_url + repo
     reference 'master'
