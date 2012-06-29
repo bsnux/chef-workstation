@@ -12,6 +12,7 @@ package 'python-pip'
 
 # Development libraries
 package 'mysql-devel'
+package 'python-devel'
 
 # Web servers
 package 'nginx'
