@@ -5,8 +5,8 @@ the_group = 'root'
 
 execute 'rpm_fusion' do
   command 'yum localinstall --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm'
-  user 'root'
-  group 'root'
+  user the_owner
+  group the_owner
   action :run
 end
 
