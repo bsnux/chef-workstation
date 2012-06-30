@@ -5,3 +5,4 @@
 #include_recipe "main::fonts"
 #include_recipe "main::github_bsnux"
 #include_recipe "main::python"
+#include_recipe "main::mp3"
