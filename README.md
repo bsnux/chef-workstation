@@ -19,7 +19,11 @@ Installation
 
 1. Clone current repo.
 
-2. Ready!
+2. If *Chef* is not installed on your machine, you can execute:
+
+    $ sudo ./init.sh
+
+3. Ready!
 
 Usage
 -----
